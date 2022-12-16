@@ -13,3 +13,14 @@ const media = total / (peso1 + peso2)
 console.log(media.toFixed(2))
 console.log(media.toString()) // em binario 
 console.log(typeof Number)
+
+//---------------------------------------------//
+console.log("10" / 2) //dentro da str pode ser divisivel, tipagem 
+console.log((10).toFixed())
+//--------------------------------------------//
+/*
+*math
+*/
+const raio = 5.6
+const area = Math.PI * Math.pow(raio, 2)
+console.log(area.toFixed(2))    
