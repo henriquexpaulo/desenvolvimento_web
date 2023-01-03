@@ -1,4 +1,4 @@
-//let pode ser usado dentro do escopo global de acordo com a variavel
+//let pode ser usado dentro do escopo de acordo com a variavel
 let numero = 1
 {
     let numero2 = 2
