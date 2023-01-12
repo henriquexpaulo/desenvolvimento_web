@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body,
 html {
     height: 100%;
@@ -17,10 +22,20 @@ body {
     box-shadow: 0 0 20px white;
 }
 
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social img {
+    width: 33px;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     font-size: 24px;
+    margin-bottom: 2px;
 }
 
 h2 {
