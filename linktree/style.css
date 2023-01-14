@@ -27,8 +27,25 @@ body {
     margin-top: 20px;
 }
 
+.social {
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+    margin: 20px 0;
+}
+
 .social img {
     width: 33px;
+}
+
+.links-list {
+    list-style: nome;
+}
+
+.links-list li a {
+    background-color: white;
+    display: block;
+    padding: 10px;
 }
 
 h1 {
