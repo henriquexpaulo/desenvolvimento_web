@@ -39,14 +39,29 @@ body {
 }
 
 .links-list {
-    list-style: nome;
+    list-style: none;
+}
+
+.links-list li {
+    margin: 20px 20px;
 }
 
 .links-list li a {
     background-color: white;
     display: block;
-    padding: 10px;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: linear-gradient(339deg, rgba(2, 0, 36, 1) 0%, rgba(33, 79, 88, 1) 100%);
+    font-weight: bold;
 }
+
+.links-list li a span {
+    color: black;
+    display: block;
+    margin-top: 10px;
+}
+
 
 h1 {
     font-family: 'Montserrat', sans-serif;
